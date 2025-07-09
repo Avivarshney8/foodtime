@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Receipt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #0e6253;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .receipt {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: white;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            background-color: white;
+        }
+
+        .total {
+            font-weight: bold;
+        }
+
+        p {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Food Order Receipt</h2>
+
+    <div class="receipt">
+        <div class="item">
+            <span>Item 1</span>
+            <span>$10.00</span>
+        </div>
+        <div class="item">
+            <span>Item 2</span>
+            <span>$15.00</span>
+        </div>
+        <!-- Add more items as needed -->
+
+        <div class="total">
+            <span>Total:</span>
+            <span>$25.00</span>
+        </div>
+    </div>
+
+    <p>Thank you for ordering from [Your Restaurant Name]!</p>
+
+</body>
+</html>
